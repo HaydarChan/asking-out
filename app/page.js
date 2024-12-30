@@ -37,7 +37,7 @@ export default function Home() {
       />
       <div>
         <h1 className="text-4xl font-beanie text-center">Hi, Grace..</h1>
-        <p className="text-2xl font-beanie text-center">i hope your doing fine, this is a letter for you ^_^</p>
+        <p className="text-2xl font-beanie text-center">i hope you're doing fine, this is a letter for you ^_^</p>
       </div>
       <div className="flex items-center gap-x-2">
         <Input 
