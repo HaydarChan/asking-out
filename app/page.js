@@ -46,8 +46,8 @@ export default function Home() {
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
         />
-        <Button onClick={onSubmit}>
-          <LogIn />
+        <Button onClick={onSubmit} className="space-x-2">
+          Masuk <LogIn />
         </Button>
       </div>
       {!isValid && (
