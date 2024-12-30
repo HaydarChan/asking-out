@@ -46,13 +46,13 @@ const placesData = [
   {
     id: 4, 
     name: "OhSome! Shopping",
-    description: "Di tempat ini barang-barangnya unik, ada painting, lego, skincare, dll. ",
+    description: "Di tempat ini barang-barangnya unik, ada painting, lego, skincare, dll.",
     image: OhSome
   },
   {
     id: 5,
     name: "Fine Dining",
-    description: "Kita makan malam atau makan siang, banyak opsi ada masakan jepang, steak, lokal juga ada. Feel free to choose whatever you desire. All the bills are on me, you don’t have to pay anything, Miss.",
+    description: "Kita makan malam atau makan siang, banyak opsi ada masakan jepang, steak, lokal juga ada. Feel free to choose whatever you desire.",
     image: FineDining
   },
   {
