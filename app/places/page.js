@@ -101,7 +101,7 @@ const PlacesPage = () => {
                 <p className="text-center font-beanie text-[18px] w-full absolute bottom-1 text-white z-10">{item.name}</p>
               </div>
             </DialogTrigger>
-            <DialogContent>
+            <DialogContent className="w-[350px] rounded-[12px]">
               <DialogHeader>
                 <Image 
                   src={item.image}
@@ -134,7 +134,7 @@ const PlacesPage = () => {
               See My Wishlist <Heart />
             </Button>
           </DialogTrigger>
-          <DialogContent>
+          <DialogContent  className="w-[350px] rounded-[12px]">
             <DialogHeader>
               <DialogTitle className="text-2xl font-beanie">My Wishlist</DialogTitle>
             </DialogHeader>
