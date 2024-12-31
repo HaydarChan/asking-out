@@ -20,7 +20,7 @@ const AskPage = () => {
         height={200}
       />
       <div>
-        <p className="text-xl font-beanie text-center">Hi, I just wanted to tell you that I think you’re absolutely amazing and incredibly cute. I’d love the chance to spend some time with you and get to know you better. Would you like to go out with me?</p>
+        <p className="text-xl font-beanie text-center">Hi, I just wanted to tell you that I think you’re absolutely amazing and incredibly fun to talk to. I’d love the chance to spend some time with you and get to know you better. Would you like to go out with me?</p>
       </div>
       <div className="flex items-center gap-x-4">
         <Button onClick={() => router.push("/places")}>
