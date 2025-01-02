@@ -136,14 +136,14 @@ const PlacesPage = () => {
           </DialogTrigger>
           <DialogContent  className="w-[350px] rounded-[12px]">
             <DialogHeader>
-              <DialogTitle className="text-2xl font-beanie">My Wishlist</DialogTitle>
+              <DialogTitle className="text-2xl font-beanie font-normal">My Wishlist</DialogTitle>
             </DialogHeader>
             {items.length === 0 ? (
                   <div className='text-slate-600'>Wishlist kosong.</div>
                 ) : (
                   <div className='space-y-2'>
                     {items.map((item, index) => (
-                      <div className='w-full px-4 py-2 border-[2px] border-slate-200 rounded-lg flex items-center justify-between' key={index}>
+                      <div className='w-full px-4 py-2 border-[1px] border-slate-200 rounded-lg flex items-center justify-between' key={index}>
                         <p>{item}</p>
                         <button 
                         className='text-xl font-beanie text-red-500' 
