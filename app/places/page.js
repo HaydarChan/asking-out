@@ -131,7 +131,7 @@ const PlacesPage = () => {
         <Dialog>
           <DialogTrigger asChild>
             <Button variant={"outline"} className="w-full space-x-2">
-              See My Wishlist 🌸
+              See My Wishlist <Heart />
             </Button>
           </DialogTrigger>
           <DialogContent  className="w-[350px] rounded-[12px]">
