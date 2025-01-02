@@ -22,7 +22,7 @@ import CGV from "@/public/CGV.jpg"
 import PVJ from "@/public/PVJ.webp"
 import { Button } from '@/components/ui/button'
 // Icon Import
-import { Heart, SendHorizontal } from 'lucide-react';
+import { Heart } from 'lucide-react';
 
 const placesData = [
   {
@@ -131,7 +131,7 @@ const PlacesPage = () => {
         <Dialog>
           <DialogTrigger asChild>
             <Button variant={"outline"} className="w-full space-x-2">
-              See My Wishlist <Heart />
+              See My Wishlist 🌸
             </Button>
           </DialogTrigger>
           <DialogContent  className="w-[350px] rounded-[12px]">
