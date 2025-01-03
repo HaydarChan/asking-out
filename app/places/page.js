@@ -2,6 +2,7 @@
 // Library Import 
 import React, { useState } from 'react'
 import Image from 'next/image'
+import { useRouter } from 'next/navigation'
 // Components Import
 import {
   Dialog,
@@ -70,6 +71,8 @@ const placesData = [
 ]
 
 const PlacesPage = () => {
+  const router = useRouter()
+
   const [items, setItems] = useState([])
   const [openDialog, setOpenDialog] = useState(null)
 
@@ -158,7 +161,10 @@ const PlacesPage = () => {
                 )}
           </DialogContent>
         </Dialog>
-        <Button className="w-full space-x-2">
+        <Button 
+          className="w-full space-x-2"
+          onClick={() => router.push("/date")}
+        >
           Confirm
         </Button>
       </div>
